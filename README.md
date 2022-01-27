@@ -1,1 +1,1 @@
-# gp-sender-portal
+# Web-Sender-autotests
