@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Gp Sender Portal" >
+
+	<test name="createExpress">
+		<classes>
+			<class name="tests.CreateExpressTest"></class>
+		</classes>
+	</test>
+
+	<test name="createSDD">
+		<classes>
+			<class name="tests.CreateSDDTest"></class>
+		</classes>
+	</test>
+
+	<test name="Login">
+		<classes>
+			<class name="tests.LoginTest"></class>
+		</classes>
+	</test>
+
+	<test name="CreateBusiness">
+		<classes>
+			<class name="tests.CreateBusinessTest"></class>
+		</classes>
+	</test>
+
+	<test name="CreateSender">
+		<classes>
+			<class name="tests.CreateSenderTest"></class>
+		</classes>
+	</test>
+
+
+
+
+
+</suite>

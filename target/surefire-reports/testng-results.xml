@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gp Sender Portal" duration-ms="248699" started-at="2022-01-27T13:12:50 IST" finished-at="2022-01-27T13:16:58 IST">
+    <groups>
+    </groups>
+    <test name="createExpress" duration-ms="66334" started-at="2022-01-27T13:12:50 IST" finished-at="2022-01-27T13:13:56 IST">
+      <class name="tests.CreateExpressTest">
+        <test-method status="PASS" signature="setSelenium()[pri:0, instance:tests.CreateExpressTest@6ebc05a6]" name="setSelenium" is-config="true" duration-ms="4523" started-at="2022-01-27T13:12:50 IST" finished-at="2022-01-27T13:12:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelenium -->
+        <test-method status="PASS" signature="setUpPage()[pri:0, instance:tests.CreateExpressTest@6ebc05a6]" name="setUpPage" is-config="true" duration-ms="28" started-at="2022-01-27T13:12:54 IST" depends-on-methods="tests.AbstractBaseTests.TestBase.setSelenium" finished-at="2022-01-27T13:12:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method status="PASS" signature="createexpresstest()[pri:0, instance:tests.CreateExpressTest@6ebc05a6]" name="createexpresstest" duration-ms="60558" started-at="2022-01-27T13:12:54 IST" finished-at="2022-01-27T13:13:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createexpresstest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreateExpressTest@6ebc05a6]" name="tearDown" is-config="true" duration-ms="1206" started-at="2022-01-27T13:13:55 IST" finished-at="2022-01-27T13:13:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateExpressTest -->
+    </test> <!-- createExpress -->
+    <test name="createSDD" duration-ms="59405" started-at="2022-01-27T13:13:56 IST" finished-at="2022-01-27T13:14:55 IST">
+      <class name="tests.CreateSDDTest">
+        <test-method status="PASS" signature="setSelenium()[pri:0, instance:tests.CreateSDDTest@184f6be2]" name="setSelenium" is-config="true" duration-ms="1601" started-at="2022-01-27T13:13:56 IST" finished-at="2022-01-27T13:13:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelenium -->
+        <test-method status="PASS" signature="setUpPage()[pri:0, instance:tests.CreateSDDTest@184f6be2]" name="setUpPage" is-config="true" duration-ms="3" started-at="2022-01-27T13:13:58 IST" depends-on-methods="tests.AbstractBaseTests.TestBase.setSelenium" finished-at="2022-01-27T13:13:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method status="PASS" signature="createsddtest()[pri:0, instance:tests.CreateSDDTest@184f6be2]" name="createsddtest" duration-ms="56560" started-at="2022-01-27T13:13:58 IST" finished-at="2022-01-27T13:14:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsddtest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreateSDDTest@184f6be2]" name="tearDown" is-config="true" duration-ms="1240" started-at="2022-01-27T13:14:54 IST" finished-at="2022-01-27T13:14:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateSDDTest -->
+    </test> <!-- createSDD -->
+    <test name="Login" duration-ms="17614" started-at="2022-01-27T13:14:56 IST" finished-at="2022-01-27T13:15:13 IST">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setSelenium()[pri:0, instance:tests.LoginTest@1d29cf23]" name="setSelenium" is-config="true" duration-ms="1506" started-at="2022-01-27T13:14:56 IST" finished-at="2022-01-27T13:14:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelenium -->
+        <test-method status="PASS" signature="setUpPage()[pri:0, instance:tests.LoginTest@1d29cf23]" name="setUpPage" is-config="true" duration-ms="1" started-at="2022-01-27T13:14:57 IST" depends-on-methods="tests.AbstractBaseTests.TestBase.setSelenium" finished-at="2022-01-27T13:14:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.LoginTest@1d29cf23]" name="loginTest" duration-ms="15034" started-at="2022-01-27T13:14:57 IST" finished-at="2022-01-27T13:15:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@1d29cf23]" name="tearDown" is-config="true" duration-ms="1073" started-at="2022-01-27T13:15:12 IST" finished-at="2022-01-27T13:15:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login -->
+    <test name="CreateBusiness" duration-ms="63791" started-at="2022-01-27T13:15:13 IST" finished-at="2022-01-27T13:16:17 IST">
+      <class name="tests.CreateBusinessTest">
+        <test-method status="PASS" signature="setSelenium()[pri:0, instance:tests.CreateBusinessTest@1786dec2]" name="setSelenium" is-config="true" duration-ms="1478" started-at="2022-01-27T13:15:13 IST" finished-at="2022-01-27T13:15:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelenium -->
+        <test-method status="PASS" signature="setUpPage()[pri:0, instance:tests.CreateBusinessTest@1786dec2]" name="setUpPage" is-config="true" duration-ms="3" started-at="2022-01-27T13:15:15 IST" depends-on-methods="tests.AbstractBaseTests.TestBase.setSelenium" finished-at="2022-01-27T13:15:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method status="PASS" signature="createbusinesstest()[pri:0, instance:tests.CreateBusinessTest@1786dec2]" name="createbusinesstest" duration-ms="61192" started-at="2022-01-27T13:15:15 IST" finished-at="2022-01-27T13:16:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createbusinesstest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreateBusinessTest@1786dec2]" name="tearDown" is-config="true" duration-ms="1118" started-at="2022-01-27T13:16:16 IST" finished-at="2022-01-27T13:16:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateBusinessTest -->
+    </test> <!-- CreateBusiness -->
+    <test name="CreateSender" duration-ms="41489" started-at="2022-01-27T13:16:17 IST" finished-at="2022-01-27T13:16:58 IST">
+      <class name="tests.CreateSenderTest">
+        <test-method status="PASS" signature="setSelenium()[pri:0, instance:tests.CreateSenderTest@3712b94]" name="setSelenium" is-config="true" duration-ms="1459" started-at="2022-01-27T13:16:17 IST" finished-at="2022-01-27T13:16:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelenium -->
+        <test-method status="PASS" signature="setUpPage()[pri:0, instance:tests.CreateSenderTest@3712b94]" name="setUpPage" is-config="true" duration-ms="3" started-at="2022-01-27T13:16:18 IST" depends-on-methods="tests.AbstractBaseTests.TestBase.setSelenium" finished-at="2022-01-27T13:16:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method status="PASS" signature="createsendertest()[pri:0, instance:tests.CreateSenderTest@3712b94]" name="createsendertest" duration-ms="38909" started-at="2022-01-27T13:16:18 IST" finished-at="2022-01-27T13:16:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsendertest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreateSenderTest@3712b94]" name="tearDown" is-config="true" duration-ms="1117" started-at="2022-01-27T13:16:57 IST" finished-at="2022-01-27T13:16:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateSenderTest -->
+    </test> <!-- CreateSender -->
+  </suite> <!-- Gp Sender Portal -->
+</testng-results>

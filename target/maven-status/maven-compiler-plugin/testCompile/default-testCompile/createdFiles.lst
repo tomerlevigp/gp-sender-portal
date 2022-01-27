@@ -1,0 +1,12 @@
+tests\CreateExpressTest.class
+Pages\CreateSDDPage.class
+tests\AbstractBaseTests\TestBase.class
+tests\CreateSenderTest.class
+Pages\LoginPage.class
+Pages\BasePage.class
+tests\CreateBusinessTest.class
+Pages\CreateBusinessPage.class
+Pages\CreateExpressPage.class
+tests\LoginTest.class
+Pages\CreateSenderPage.class
+tests\CreateSDDTest.class
